@@ -1,0 +1,8 @@
+.output{
+    border: 2px dotted royalblue;
+    background-color: royalblue;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    padding: 5px;
+}
