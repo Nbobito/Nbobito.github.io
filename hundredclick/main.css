@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Open+Sans:wght@700&family=Red+Hat+Mono:wght@300&display=swap');
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    user-select: none;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    overflow: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+.clicks{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: font-size 0.25s;
+}
+.time{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.instructions{
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 300;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23;
+    font-weight: 300;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    margin: 1em;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
