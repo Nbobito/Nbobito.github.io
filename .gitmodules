@@ -1,0 +1,3 @@
+[submodule "Inertial-Calculator"]
+	path = Inertial-Calculator
+	url = https://github.com/Nbobito/Inertial-Calculator.git
